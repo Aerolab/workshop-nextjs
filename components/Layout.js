@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default class Layout extends React.Component {
   render() {
@@ -8,7 +9,7 @@ export default class Layout extends React.Component {
         <meta name="viewport" content="initial-scale=1.0; width=device-width;" />
       </Head>
 
-      <nav>Hacker News</nav>
+      <nav><Link href="/" prefetch><a>Hacker News</a></Link></nav>
 
       { this.props.children }
 
@@ -19,6 +20,10 @@ export default class Layout extends React.Component {
           font-weight: bold;
           font-size: 1.1em;
           padding: 15px;
+        }
+        nav a {
+          color: white;
+          text-decoration: none;
         }
         :global(body) {
           background: #f0f0f0;

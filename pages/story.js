@@ -1,5 +1,6 @@
 import 'isomorphic-fetch'
 import Layout from '../components/Layout'
+import Comment from '../components/Comment'
 
 export default class extends React.Component {
 
@@ -19,10 +20,7 @@ export default class extends React.Component {
 
       <div className="comments">
         { this.props.story.comments.map( (comment) => {
-          return <div className="comment">
-            <div className="author">{ comment.user }</div>
-            <div className="content" dangerouslySetInnerHTML={ { __html: comment.content } }></div>
-          </div>
+          return <Comment comment={ comment } key={ comment.id } />
          } ) }
       </div>
 
@@ -37,17 +35,6 @@ export default class extends React.Component {
           padding: 0 15px 15px 15px;
           color: #333;
           font-size: 0.9em;
-        }
-
-        .comment {
-          padding:15px;
-        }
-        .comment > .content :global(a) {
-          color: royalblue;
-        }
-        .author {
-          color: indigo;
-          font-weight: bold;
         }
       `}</style>
     </Layout>

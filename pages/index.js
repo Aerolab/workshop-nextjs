@@ -14,7 +14,7 @@ export default class extends React.Component {
     let { stories } = this.props
 
     return <Layout title="Hacker News">
-      { stories.map( (story) => <StoryItem story={ story } /> ) }
+      { stories.map( (story) => <StoryItem story={ story } key={ story.id } /> ) }
     </Layout>
   }
 
