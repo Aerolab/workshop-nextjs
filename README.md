@@ -6,6 +6,8 @@ Si querés aprender más sobre el tema hicimos un artículo más avanzado sobre 
 
 [Ver la Demo >](https://workshop-nqmtqzruxr.now.sh)
 
+![Screenshot](https://github.com/Aerolab/workshop-nextjs/raw/master/static/screenshot.png)
+
 ## Recursos
 
 * Aprender Next.JS: [learnnextjs.com](https://learnnextjs.com/)
