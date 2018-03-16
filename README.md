@@ -4,6 +4,8 @@ En este workshop realizamos un lector de Hacker News para cubrir los conceptos b
 
 Si querés aprender más sobre el tema hicimos un artículo más avanzado sobre [Construir una PWA con React y Next.JS](https://aerolab.co/blog/react-nextjs-pwa) en el Blog de Aerolab.
 
+[Ver la Demo >](https://workshop-nqmtqzruxr.now.sh)
+
 ## Recursos
 
 * Aprender Next.JS: [learnnextjs.com](https://learnnextjs.com/)
