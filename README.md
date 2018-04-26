@@ -8,6 +8,13 @@ Si querés aprender más sobre el tema hicimos un artículo más avanzado sobre 
 
 ![Screenshot](https://github.com/Aerolab/workshop-nextjs/raw/master/static/screenshot.png)
 
+
+## Hacker News API
+
+* Lista de Stories: node-hnapi.herokuapp.com/news
+* Stories con Comentarios: node-hnapi.herokuapp.com/item/:id
+
+
 ## Recursos
 
 * Aprender Next.JS: [learnnextjs.com](https://learnnextjs.com/)
